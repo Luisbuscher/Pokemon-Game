@@ -1,0 +1,7 @@
+use pokemon;
+
+insert into pokemons (nome, tipo, vida, fraqueza, skill_1, tipo_skill_1, qtd_skill_1, elemento_skill_1, skill_2, tipo_skill_2, qtd_skill_2, elemento_skill_2, skill_3, tipo_skill_3, qtd_skill_3, elemento_skill_3, boost, tipo_boost, qtd_boost)
+
+VALUES
+
+('Charizard', 'fogo', '78', 'agua', 'Corte Aéreo', 'dano', '25', null, 'Lança-chamas', 'dano', '30', 'fogo', 'Bafo de dragão', 'dano', '20', 'dragao', 'Fortificar', 'defesa', '2');
